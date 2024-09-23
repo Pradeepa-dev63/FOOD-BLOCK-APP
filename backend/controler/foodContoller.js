@@ -20,6 +20,7 @@ const addFood = async (req,res)=>{
    res.json({success:false , message:"Error"})
   }
 }
+
 //--------------------------------------------------------------------------------------------//
 // ------- ( GET ) ----- //
 
@@ -34,8 +35,6 @@ const listFood = async(req,res)=>{
 }
 
 
-
-
 //--------------------------------------------------------------------------------------------//
 //----- ( PUT ) --------//
 
@@ -48,7 +47,7 @@ const listFood = async(req,res)=>{
 //   }
 // }
 
-// exports.update = (req,res)=>{
+//  const update = (req,res)=>{
 //   if(!req.body){
 //    return res
 //    .status (400)
@@ -67,7 +66,6 @@ const listFood = async(req,res)=>{
 //    res.status(500).send ({ msg: 'Error update information'})
 //   })
 // }
-
 
 //---------------------------------------------------------------------------------------------//
 // ----- (( DELETE )) ----- // 
